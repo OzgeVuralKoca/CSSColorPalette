@@ -1,0 +1,98 @@
+[
+    {
+        "id":1,
+        "firstColor": "#FF1D58",
+        "secondColor": "#F75990",
+        "thirdColor": "#FFF685",
+        "fourthColor": "#00DDFF",
+        "fifthColor": "#0049B7"
+    },
+    {
+        "id":2,
+        "firstColor": "#F8B195",
+        "secondColor": "#F67280",
+        "thirdColor": "#CD6C84",
+        "fourthColor": "#6C5B7B",
+        "fifthColor": "#355C7D"
+    },
+    {
+        "id":3,
+        "firstColor": "#00B8A9",
+        "secondColor": "#F8F3D4",
+        "thirdColor": "#F6416C",
+        "fourthColor": "#FFDE7D",
+        "fifthColor": "#52734D"
+    },
+    {
+        "id":4,
+        "firstColor": "#2D4059",
+        "secondColor": "#EA5455",
+        "thirdColor": "#F07B3F",
+        "fourthColor": "#91C788",
+        "fifthColor": "#FFD460"
+    },
+    {
+        "id":5,
+        "firstColor": "#4F0949",
+        "secondColor": "#A10C55",
+        "thirdColor": "#277BD8",
+        "fourthColor": "#F8B3EC",
+        "fifthColor": "#F8EFED"
+    },
+    {
+        "id":6,
+        "firstColor": "#EF476F",
+        "secondColor": "#FFD166",
+        "thirdColor": "#06D6A0",
+        "fourthColor": "#118AB2",
+        "fifthColor": "#073B4C"
+    },
+    {
+        "id":7,
+        "firstColor": "#011627",
+        "secondColor": "#2EC4B6",
+        "thirdColor": "#E71D36",
+        "fourthColor": "#FF9F1C",
+        "fifthColor": "#FDFFFC"
+    },
+    {
+        "id":8,
+        "firstColor": "#303841",
+        "secondColor": "#00ADB5",
+        "thirdColor": "#FF0000",
+        "fourthColor": "#FF5722",
+        "fifthColor": "#EEEEEE"
+    },
+    {
+        "id":9,
+        "firstColor": "#002C4C",
+        "secondColor": "#0057A5",
+        "thirdColor": "#8C268C",
+        "fourthColor": "#CE651D",
+        "fifthColor": "#FFFFB6"
+    },
+    {
+        "id":10,
+        "firstColor": "#201407",
+        "secondColor": "#1A4309",
+        "thirdColor": "#AEB2EB",
+        "fourthColor": "#F8B3EC",
+        "fifthColor": "#F8EFC6"
+    },
+    {
+        "id":11,
+        "firstColor": "#001B39",
+        "secondColor": "#284B61",
+        "thirdColor": "#748B95",
+        "fourthColor": "#C8CFD0",
+        "fifthColor": "#FFFFFF"
+    },
+    {
+        "id":12,
+        "firstColor": "#432818",
+        "secondColor": "#99582A",
+        "thirdColor": "#6F1D1B",
+        "fourthColor": "#BF4342",
+        "fifthColor": "#E7D7C1"
+    }
+]

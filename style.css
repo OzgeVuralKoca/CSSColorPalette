@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
     margin: 0;
@@ -8,36 +8,68 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    text-align: center;
-    padding: 50px 0;
-    background-color: #2222;
-}
-
-h1 {
-    width: 100%;
     background-color: #ffffff;
-    color:#222222;
-    padding: 20px 0;
-    text-shadow: 2px 2px 3px #222222;
-    font-weight: 600;
-    font-size: 3em;
-    box-shadow: 2px 2px 5px #222222;
+    max-width: 100vw;
 }
 
-button {
-    margin: 30px;
-    padding: 10px;
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px;
+    border-bottom: 1px solid #2225;
+}
+
+header .logo {
+    color: #10578a;
+    margin: auto 0;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+header a {
+    margin: auto 0;
+    text-decoration: none;
+    color: #10578a;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+section {
+    margin: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #2225
+}
+
+.random-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.random-section .col {
+    text-align: center;
+    margin: auto;
+}
+
+.random-header {
+    font-size: 5em;
+}
+
+.random-section .col button {
+    margin: 20px;
+    margin-bottom: 60px;
+    padding: 10px 30px;
     cursor: pointer;
     border-style: none;
     background-color: #222222;
     border-radius: 5px;
     font-size: 1.5em;
-    font-weight: 600;
-    box-shadow: 2px 2px 5px #222222;
+    font-weight: 500;
+    letter-spacing: 2px;
+    box-shadow: 2px 2px 5px #2222227e;
     animation: colorchange 10s infinite alternate;
 }
 
-button:hover {
+.random-section .col button:hover {
     background-color: #3b3939;
 }
 
@@ -47,63 +79,147 @@ button:hover {
     }
 
     10% {
-        color:crimson;
+        color: crimson;
     }
 
     20% {
-        color:hotpink;
+        color: hotpink;
     }
 
     30% {
-        color:orange;
+        color: orange;
     }
 
     40% {
-        color:teal;
+        color: teal;
     }
 
     50% {
-        color:coral;
+        color: coral;
     }
 
     60% {
-        color:darkseagreen;
+        color: darkseagreen;
     }
 
     70% {
-        color:lightseagreen;
+        color: lightseagreen;
     }
 
     80% {
-        color:darkkhaki;
+        color: darkkhaki;
     }
 
     90% {
-        color:yellow;
+        color: yellow;
     }
 
     100% {
-        color:cornflowerblue;
+        color: cornflowerblue;
     }
 
-    
+
+}
+
+.random-section .col-palette {
+    min-width: 400px;
+    width: 600px;
 }
 
 .palette {
     display: flex;
-    padding: 30px;
+    border: 1px solid #a1a1a1;
+    border-radius: 20px;
+    margin: auto;
+    background-color: #747474;
 }
 
-.color {
+.palette .color1, 
+.first-color {
+    border-radius: 20px 0 0 20px;
+}
+
+.palette .color5,
+.fifth-color {
+    border-radius: 0 20px 20px 0;
+}
+
+.palette .color {
     width: 20%;
-    border: 1px solid #222222;
-    height: 100px;
+    height: 120px;
     display: flex;
-    align-items: flex-end;
-    box-shadow: 0px 2px 5px #22222275;
+    cursor: pointer;
 }
 
-.color p {
+.palette .color p {
     width: 100%;
-    padding: 5px;
+    font-weight: 600;
+    padding: 10px 0;
+    background-color: #7474749d;
+    color: #ffffff;
+    margin: auto;
+    display: none;
+}
+
+.palette .color:hover {
+    display: flex;
+    width: 30%;
+}
+
+.palette .color:hover p {
+    display: flex;
+    justify-content: center;
+}
+
+.trend-section .trend-palettes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.trend-section .trend-header {
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.trend-palettes .trend-palette {
+    min-width: 350px;
+}
+
+@media (max-width:757px) {
+    .random-header {
+        font-size: 4em;
+    }
+}
+
+@media (max-width:622px) {
+    .random-header {
+        font-size: 3em;
+    }
+}
+
+@media (max-width:480px) {
+    .random-header {
+        font-size: 2em;
+    }
+
+    section {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .random-section .col button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-style: none;
+    background-color: #222222;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: 500;
+    letter-spacing: 2px;
+    box-shadow: 2px 2px 5px #2222227e;
+    animation: colorchange 10s infinite alternate;
+}
+
 }

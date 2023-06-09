@@ -10,24 +10,50 @@
 </head>
 
 <body>
-    <h1>CSS COLOR PALETTES</h1>
-    <button onclick="changeColor()">Random Palette</button>
-    <div class="palette">
-        <div class="color color1">
-            <p class="hexname"></p>
+    <header>
+        <h2 class="logo">CSS Color Palettes</h2>
+        <a href="#trend">Trend Pallettes</a>
+    </header>
+
+    <section class="random-section">
+        <div class="col">
+            <h1 class="random-header">Let's create a random palette!</h1>
+            <button onclick="changeColor()">Random Palette</button>
         </div>
-        <div class="color color2">
-            <p class="hexname"></p>
+        <div class="col col-palette">
+            <div class="palette random-palette">
+                <div class="color random-color color1">
+                    <p class="hexname random-hexname"></p>
+                </div>
+                <div class="color random-color color2">
+                    <p class="hexname random-hexname"></p>
+                </div>
+                <div class="color random-color color3">
+                    <p class="hexname random-hexname"></p>
+                </div>
+                <div class="color random-color color4">
+                    <p class="hexname random-hexname"></p>
+                </div>
+                <div class="color random-color color5">
+                    <p class="hexname random-hexname"></p>
+                </div>
+            </div>
         </div>
-        <div class="color color3">
-            <p class="hexname"></p>
+    </section>
+
+    <section class="trend-section" id="trend">
+        <h1 class="header trend-header">Trend Color Palettes</h1>
+        <div class="trend-palettes" id="trend-palette">
+        
+            
         </div>
-        <div class="color color4">
-            <p class="hexname"></p>
-        </div>
-        <div class="color color5">
-            <p class="hexname"></p>
-        </div>
+        
+    </section>
+
+     <!-- Footer -->
+    <!-- Footer -->
+    <div style="text-align: center; padding-bottom: 25px;">
+        <h4>Created By <a target="_blank" style="color:#10578a; font-style: italic; text-decoration: none;" href="https://ozgevuralkoca.github.io/portfolio">ozgevuralkoca</a> | © 2023 All rights reserved</h4>
     </div>
 
     <script src="script.js"></script>
