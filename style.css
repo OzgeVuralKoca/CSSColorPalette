@@ -37,6 +37,10 @@ button {
     animation: colorchange 10s infinite alternate;
 }
 
+button:hover {
+    background-color: #3b3939;
+}
+
 @keyframes colorchange {
     0% {
         color: pink;
