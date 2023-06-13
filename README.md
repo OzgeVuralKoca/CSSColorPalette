@@ -1,3 +1,5 @@
 # RandomColorPalettes
 
-https://user-images.githubusercontent.com/122672119/218664292-409e9e62-cb03-467c-bfa5-0a26be2acd4c.mp4
+![1](https://github.com/OzgeVuralKoca/css-color-palettes/assets/122672119/3aba7221-6c4b-4a8e-9847-0ceeffc06e5e)
+![2](https://github.com/OzgeVuralKoca/css-color-palettes/assets/122672119/2c6c39e3-fba5-45b5-83df-f1440a5d6165)
+
